@@ -7,7 +7,7 @@ RUN pip install --no-cache-dir -r  requirements.txt
 
 ENV APP_HOME /root
 WORKDIR $APP_HOME
-COPY /category_app $APP_HOME/category_app
+COPY /category_app $APP_HOME/app
 
 EXPOSE 8080
 CMD ["uvicorn", "category_app.main:app", "--host", "0.0.0.0", "--port", "8080"]
