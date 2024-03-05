@@ -75,13 +75,14 @@ A friend of mine works for an e-commerce company that offers a marketplace to ve
 
 
 ### Built With
+
 * [![PYTHON][Python.py]][Python-url]
 * [![JSON][Json.json]][Json-url]
 * [![OPENAI][Openai.ai]][Openai-url]
 * [![OS][Os.os]][Os-url]
 * [![FastAPi][Fast.api]][Fastapi-url]
 * [![BaseModel][Base.model]][BaseModel-url]
- openai, json, os, FastApi and BaseModel.
+  
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -186,9 +187,9 @@ Project Link: [https://github.com/Gozzi98/merchant_ai](https://github.com/Gozzi9
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/david-tsemach-gozlan/
 [product-screenshot]: images/screenshot.png
-[Python.py]: https://img.shields.io/badge/python-000000?style=for-the-badge&logo=python&logoColor=white
+[Python.py]: https://img.shields.io/badge/python-35495E?style=for-the-badge&logo=python&logoColor=white
 [Python-url]: https://python.org/
-[Json.json]: https://img.shields.io/badge/json-000000?style=for-the-badge&logo=json&logoColor=white
+[Json.json]: https://img.shields.io/badge/json-35495E?style=for-the-badge&logo=json&logoColor=white
 [Json-url]: https://json.org/
 [Openai.ai]: https://img.shields.io/badge/openai-35495E?style=for-the-badge&logo=openai&logoColor=4FC08D
 [Openai-url]: https://openai.com/
