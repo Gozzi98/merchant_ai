@@ -35,12 +35,7 @@
     <br />
     <a href="https://github.com/Gozzi98/merchant_ai"><strong>Explore the docs »</strong></a>
     <br />
-    <br />
-    <a href="https://github.com/Gozzi98/merchant_ai">View Demo</a>
-    ·
-    <a href="https://github.com/Gozzi98/merchant_ai/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/Gozzi98/merchant_ai/issues">Request Feature</a>
+    
   </p>
 </div>
 
