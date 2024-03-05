@@ -75,7 +75,8 @@ A friend of mine works for an e-commerce company that offers a marketplace to ve
 
 
 ### Built With
-
+* [![Python][Python.py]][Python-url]
+* [![Next][Next.js]][Next-url]
 Python, using different libraries such as openai, json, os, FastApi and BaseModel.
 
 
@@ -181,8 +182,8 @@ Project Link: [https://github.com/Gozzi98/merchant_ai](https://github.com/Gozzi9
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/david-tsemach-gozlan/
 [product-screenshot]: images/screenshot.png
-[Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
-[Next-url]: https://nextjs.org/
+[Python.py]: https://img.shields.io/badge/python-000000?style=for-the-badge&logo=python&logoColor=white
+[Python-url]: https://python.org/
 [React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
 [React-url]: https://reactjs.org/
 [Vue.js]: https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D
