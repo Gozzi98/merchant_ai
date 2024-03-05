@@ -19,6 +19,7 @@
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
 ![LinkedIn][linkedin-shield]
+</p>
 https://www.linkedin.com/in/david-tsemach-gozlan/
 
 
