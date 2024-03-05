@@ -75,9 +75,13 @@ A friend of mine works for an e-commerce company that offers a marketplace to ve
 
 
 ### Built With
-* [![Python][Python.py]][Python-url]
-* [![Next][Next.js]][Next-url]
-Python, using different libraries such as openai, json, os, FastApi and BaseModel.
+* [![PYTHON][Python.py]][Python-url]
+* [![JSON][Json.json]][Json-url]
+* [![OPENAI][Openai.ai]][Openai-url]
+* [![OS][Os.os]][Os-url]
+* [![FastAPi][Fast.api]][Fastapi-url]
+* [![BaseModel][Base.model]][BaseModel-url]
+ openai, json, os, FastApi and BaseModel.
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -184,16 +188,16 @@ Project Link: [https://github.com/Gozzi98/merchant_ai](https://github.com/Gozzi9
 [product-screenshot]: images/screenshot.png
 [Python.py]: https://img.shields.io/badge/python-000000?style=for-the-badge&logo=python&logoColor=white
 [Python-url]: https://python.org/
-[React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
-[React-url]: https://reactjs.org/
-[Vue.js]: https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D
-[Vue-url]: https://vuejs.org/
-[Angular.io]: https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white
-[Angular-url]: https://angular.io/
-[Svelte.dev]: https://img.shields.io/badge/Svelte-4A4A55?style=for-the-badge&logo=svelte&logoColor=FF3E00
-[Svelte-url]: https://svelte.dev/
-[Laravel.com]: https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white
-[Laravel-url]: https://laravel.com
+[Json.json]: https://img.shields.io/badge/json-000000?style=for-the-badge&logo=json&logoColor=white
+[Json-url]: https://json.org/
+[Openai.ai]: https://img.shields.io/badge/openai-35495E?style=for-the-badge&logo=openai&logoColor=4FC08D
+[Openai-url]: https://openai.com/
+[Os.os]: https://img.shields.io/badge/os-DD0031?style=for-the-badge&logo=os&logoColor=white
+[Os-url]: https://docs.python.org/3/library/os.html
+[Fast.api]: https://img.shields.io/badge/fastapi-4A4A55?style=for-the-badge&logo=fastapi&logoColor=FF3E00
+[Fastapi-url]: https://fastapi.tiangolo.com/
+[Base.model]: https://img.shields.io/badge/basemodel-FF2D20?style=for-the-badge&logo=basemodel&logoColor=white
+[BaseModel-url]: https://docs.pydantic.dev/latest/api/base_model/
 [Bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
 [Bootstrap-url]: https://getbootstrap.com
 [JQuery.com]: https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
