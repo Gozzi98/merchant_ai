@@ -141,7 +141,7 @@ Python
 ### Installation
 
 1. Get a free API Key at [https://openai.com](https://openai.com)
-2. Make .env file to store API key
+2. Create .env file to store API key
    ```sh
    OPENAI_KEY= "API_KEY"
    ```
