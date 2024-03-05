@@ -27,7 +27,8 @@
 <br />
 <div align="center">
   <a href="https://github.com/Gozzi98/merchant_ai">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="![image](https://github.com/Gozzi98/merchant_ai/assets/78771268/8166dff2-95b0-4a3b-9abf-fb83d6cf24ab)
+" alt="Logo" width="80" height="80">
   </a>
 
 <h3 align="center">Product Category Generator</h3>
