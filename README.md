@@ -85,7 +85,7 @@
 
 ### Built With
 
-* [![Python][Python]][Python-url]
+Python, using different libraries such as openai, json, os, FastApi and BaseModel.
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -95,31 +95,73 @@
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+Google Cloud account
+gcloud CLI
+Docker
+Python
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
+* Connect the gcloud CLI to GCP account
   ```sh
-  npm install npm@latest -g
+  gcloud auth login
   ```
+* Set up your project ID
+  ```sh
+  gcloud config set project PROJECT_ID
+  ```
+* Region settings
+  ```sh
+  gcloud config set run/region REGION
+  ```
+* Docker settings
+  ```sh
+  gcloud auth configure-docker
+  ```
+* Prepare Dockerfile in the same hierarchy as the app directory.
+  ```sh
+  FROM python:3.11.3
+  ENV PYTHONUNBUFFERED True
+  
+  RUN pip install --upgrade pip
+  COPY requirements.txt .
+  RUN pip install --no-cache-dir -r requirements.txt
 
+  ENV APP_HOME /root
+  WORKDIR $APP_HOME
+  COPY main.py $APP_HOME/category_app/
+
+  EXPOSE 8080
+  CMD ["uvicorn", "category_app.main:app", "--host", "0.0.0.0", "--port", "8080"]
+  ```
+  * Now that it is ready, deploy to Cloud Run.
+  ```sh
+   gcloud run deploy category-app --port 8080 --source .
+  ```
 ### Installation
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
+1. Get a free API Key at [https://openai.com](https://openai.com)
+2. Make .env file to store API key
    ```sh
-   git clone https://github.com/github_username/repo_name.git
+   OPENAI_KEY= "API_KEY"
    ```
-3. Install NPM packages
+3. Using OPENAI.CHAT.COMPLETION to create a model response message to communicate with ChatGPT
    ```sh
-   npm install
+   response = openai.chat.completions.create(
+            model="gpt-3.5-turbo-0125",
+            response_format={ "type": "json_object" },
+            messages=[
+                {"role": "user", "content": prompt}
+            ],
+            max_tokens=1000
+        )
    ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
+4. Made different endpoints using POST and GET
+   ```sh
+   @app.get("/")
+   (...)
+   @app.post("/generate-product-category/")
+   (...)
    ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -131,7 +173,7 @@ This is an example of how to list things you need to use the software and how to
 
 Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
