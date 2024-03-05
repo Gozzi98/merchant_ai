@@ -18,7 +18,7 @@
 *** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
-[![LinkedIn][linkedin-shield]][https://www.linkedin.com/in/david-tsemach-gozlan/]
+[![LinkedIn][linkedin-shield]https://www.linkedin.com/in/david-tsemach-gozlan/
 
 
 
@@ -76,7 +76,7 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-My friend is employed at an e-commerce company and is encountering challenges in efficiently categorizing products for customer interface. The task involves creating granular product categories, which proves to be exceedingly difficult solely based on product descriptions. By leveraging ChatGPT, I aim to develop a program that automates the categorization process, making it simpler to manipulate and manage product data.
+A friend of mine works for an e-commerce company that offers a marketplace to vendors. The challenge is being able to automate extraction of standardized product categorized from ambiguous product description data. By leveraging ChatGP to develop a program that automates the categorization process, making it simpler to manipulate and manage product data.
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
