@@ -33,8 +33,6 @@
   <p align="center">
     project_description
     <br />
-    <a href="https://github.com/Gozzi98/merchant_ai"><strong>Explore the docs »</strong></a>
-    <br />
     
   </p>
 </div>
