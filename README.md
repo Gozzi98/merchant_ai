@@ -76,8 +76,8 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
+My friend is employed at an e-commerce company and is encountering challenges in efficiently categorizing products for customer interface. The task involves creating granular product categories, which proves to be exceedingly difficult solely based on product descriptions. By leveraging ChatGPT, I aim to develop a program that automates the categorization process, making it simpler to manipulate and manage product data.
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -134,7 +134,7 @@ Python
   EXPOSE 8080
   CMD ["uvicorn", "category_app.main:app", "--host", "0.0.0.0", "--port", "8080"]
   ```
-  * Now that it is ready, deploy to Cloud Run.
+* Now that it is ready, deploy to Cloud Run.
   ```sh
    gcloud run deploy category-app --port 8080 --source .
   ```
