@@ -30,7 +30,8 @@
     
 <h3 align="center">Product Category Generator</h3>
 
- 
+  </p>
+</div>
 
 
 
