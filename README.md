@@ -80,7 +80,7 @@ A friend of mine works for an e-commerce company that offers a marketplace to ve
 * [![JSON][Json.json]][Json-url]
 * [![OPENAI][Openai.ai]][Openai-url]
 * [![FastAPi][Fast.api]][Fastapi-url]
-* [![BaseModel][Base.model]][BaseModel-url]
+
   
 
 
