@@ -44,10 +44,9 @@ def generate_product_categories(description: str):
     return all_categories
 
 # Root endpoint
-@app.post("/")
+@app.get("/")
 async def root():
-    return {
-        "message": ("Welcome to the Product Category Generator. "
+    return  ("Welcome to the Product Category Generator. "
                     "Use the /generate-product-category/ endpoint to generate product categories from a product description. "
                     "For multiple product descriptions, use the /generate-products-categories/ endpoint. "
                     "This FastAPI-based web service utilizes OpenAI's GPT model to automatically generate product categories from textual descriptions. "
@@ -56,7 +55,6 @@ async def root():
                     "With error handling mechanisms in place, it ensures reliable operation, making it ideal for e-commerce platforms seeking streamlined categorization processes. "
                     "Its simplicity and efficiency make it a valuable tool for enhancing product management workflows."
                    )
-    }
 # Function to generate product category
 @app.post("/generate-product-category/")
 async def get_product_categories(product: ProductDescription):
