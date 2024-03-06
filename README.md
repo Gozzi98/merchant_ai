@@ -174,8 +174,8 @@ Project Link: [https://github.com/Gozzi98/merchant_ai](https://github.com/Gozzi9
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[App-shield]: https://img.shields.io/badge/-Category-App-black.svg?style=for-the-badge&logo=category-app&colorB=555
-[App-url]: https://category-app-ierfjrurbq-ue.a.run.app
+[app-shield]: https://img.shields.io/badge/-Category-App-black.svg?style=for-the-badge&logo=category-app&colorB=555
+[app-url]: https://category-app-ierfjrurbq-ue.a.run.app
 [contributors-shield]: https://img.shields.io/github/contributors/github_username/repo_name.svg?style=for-the-badge
 [contributors-url]: https://github.com/github_username/repo_name/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/github_username/repo_name.svg?style=for-the-badge
