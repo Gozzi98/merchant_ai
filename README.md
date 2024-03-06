@@ -76,8 +76,6 @@ A friend of mine works for an e-commerce company that offers a marketplace to ve
 
 ### Built With
 
-* [![PYTHON][Python.py]][Python-url]
-* [![JSON][Json.json]][Json-url]
 * [![OPENAI][Openai.ai]][Openai-url]
 * [![FastAPi][Fast.api]][Fastapi-url]
 
