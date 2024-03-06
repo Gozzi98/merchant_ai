@@ -189,11 +189,11 @@ Project Link: [https://github.com/Gozzi98/merchant_ai](https://github.com/Gozzi9
 [product-screenshot]: images/screenshot.png
 [Python.py]: https://img.shields.io/badge/python-35495E?style=for-the-badge&logo=python&logoColor=white
 [Python-url]: https://python.org/
-[Json.json]: https://img.shields.io/badge/json-35495E?style=for-the-badge&logo=json&logoColor=white
+[Json.json]: https://img.shields.io/badge/json-DD0031?style=for-the-badge&logo=json&logoColor=white
 [Json-url]: https://json.org/
-[Openai.ai]: https://img.shields.io/badge/openai-35495E?style=for-the-badge&logo=openai&logoColor=4FC08D
+[Openai.ai]: https://img.shields.io/badge/openai-FF2D20?style=for-the-badge&logo=openai&logoColor=4FC08D
 [Openai-url]: https://openai.com/
-[Os.os]: https://img.shields.io/badge/os-DD0031?style=for-the-badge&logo=os&logoColor=white
+[Os.os]: https://img.shields.io/badge/os-35495E?style=for-the-badge&logo=os&logoColor=white
 [Os-url]: https://docs.python.org/3/library/os.html
 [Fast.api]: https://img.shields.io/badge/fastapi-4A4A55?style=for-the-badge&logo=fastapi&logoColor=FF3E00
 [Fastapi-url]: https://fastapi.tiangolo.com/
