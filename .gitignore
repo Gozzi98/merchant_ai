@@ -2,7 +2,8 @@
 .DS_Store 
 venv/
 category_app/google-cloud-sdk/
-
+*.db
+*.sqlite
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
