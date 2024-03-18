@@ -55,7 +55,6 @@ async def root():
                     "With error handling mechanisms in place, it ensures reliable operation, making it ideal for e-commerce platforms seeking streamlined categorization processes. "
                     "Its simplicity and efficiency make it a valuable tool for enhancing product management workflows."
                    )
-    
 # Function to generate product category
 @app.post("/generate-product-category/")
 async def get_product_categories(product: ProductDescription):
