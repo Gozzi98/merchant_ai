@@ -37,31 +37,6 @@
 
 
 
-<!-- TABLE OF CONTENTS -->
-<details>
-  <summary>Table of Contents</summary>
-  <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
-    </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
-    </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
-  </ol>
-</details>
 
 
 
@@ -89,20 +64,15 @@ A friend of mine works for an e-commerce company that offers a marketplace to ve
 <!-- GETTING STARTED -->
 ## Getting Started
 
-  1. In order to run this locally you will need python version 3.11 or higher
-  2. Create a venv file:
-    `python3 -m venv venv`
-  3. Activate venv file
-   `source venv/bin/activate`
-  4. Update pip
-  `pip install -U pip`
-  5. Install the dependencies
-  `pip install -r requirements.txt`
-  6. Get a free API Key at [https://openai.com](https://openai.com)
-  7. Create .env file to store API key
-   `OPENAI_KEY=$YOUR_API_KEY`
-  8. Run Uvicorn
-  `uvicorn category_app.main:app --host 0.0.0.0 --port 8080`
+In order to run this locally you will need python version 3.11 or higher
+
+1. Create a local virtual environment: `python3 -m venv venv`
+2. Activate venv file: `source venv/bin/activate`
+3. Update pip: `pip install -U pip`
+4. Install the dependencies: `pip install -r requirements.txt`
+5. Get a free API Key at [https://openai.com](https://openai.com)
+6. Create .env file to store API key: `OPENAI_KEY=$YOUR_API_KEY`
+7. Run Uvicorn: `uvicorn category_app.main:app --host 0.0.0.0 --port 8080`
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
