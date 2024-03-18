@@ -89,71 +89,20 @@ A friend of mine works for an e-commerce company that offers a marketplace to ve
 <!-- GETTING STARTED -->
 ## Getting Started
 
-Need a Google Cloud account, access to gcloud CLI and Docker knowledge.
-
-### Prerequisites
-
-* Connect the gcloud CLI to GCP account
-  ```sh
-  gcloud auth login
-  ```
-* Set up your project ID
-  ```sh
-  gcloud config set project PROJECT_ID
-  ```
-* Region settings
-  ```sh
-  gcloud config set run/region REGION
-  ```
-* Docker settings
-  ```sh
-  gcloud auth configure-docker
-  ```
-* Prepare Dockerfile in the same hierarchy as the app directory.
-  ```sh
-  FROM python:3.11.3
-  ENV PYTHONUNBUFFERED True
-  
-  RUN pip install --upgrade pip
-  COPY requirements.txt .
-  RUN pip install --no-cache-dir -r requirements.txt
-
-  ENV APP_HOME /root
-  WORKDIR $APP_HOME
-  COPY main.py $APP_HOME/category_app/
-
-  EXPOSE 8080
-  CMD ["uvicorn", "category_app.main:app", "--host", "0.0.0.0", "--port", "8080"]
-  ```
-* Now that it is ready, deploy to Cloud Run.
-  ```sh
-   gcloud run deploy category-app --port 8080 --source .
-  ```
-### Installation
-
-1. Get a free API Key at [https://openai.com](https://openai.com)
-2. Create .env file to store API key
-   ```sh
-   OPENAI_KEY= "API_KEY"
-   ```
-3. Using OPENAI.CHAT.COMPLETION to create a model response message to communicate with ChatGPT
-   ```sh
-   response = openai.chat.completions.create(
-            model="gpt-3.5-turbo-0125",
-            response_format={ "type": "json_object" },
-            messages=[
-                {"role": "user", "content": prompt}
-            ],
-            max_tokens=1000
-        )
-   ```
-4. Made different endpoints using POST and GET
-   ```sh
-   @app.get("/")
-   (...)
-   @app.post("/generate-product-category/")
-   (...)
-   ```
+  1. In order to run this locally you will need python version 3.11 or higher
+  2. Create a venv file:
+    `python3 -m venv venv`
+  3. Activate venv file
+   `source venv/bin/activate`
+  4. Update pip
+  `pip install -U pip`
+  5. Install the dependencies
+  `pip install -r requirements.txt`
+  6. Get a free API Key at [https://openai.com](https://openai.com)
+  7. Create .env file to store API key
+   `OPENAI_KEY=$YOUR_API_KEY`
+  8. Run Uvicorn
+  `uvicorn category_app.main:app --host 0.0.0.0 --port 8080`
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
